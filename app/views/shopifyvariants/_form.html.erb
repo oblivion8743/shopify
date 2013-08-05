@@ -1,0 +1,89 @@
+<%= form_for(@shopifyvariant) do |f| %>
+  <% if @shopifyvariant.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@shopifyvariant.errors.count, "error") %> prohibited this shopifyvariant from being saved:</h2>
+
+      <ul>
+      <% @shopifyvariant.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :varianttitle %><br />
+    <%= f.text_field :varianttitle %>
+  </div>
+  <div class="field">
+    <%= f.label :string %><br />
+    <%= f.text_field :string %>
+  </div>
+  <div class="field">
+    <%= f.label :variantid %><br />
+    <%= f.text_field :variantid %>
+  </div>
+  <div class="field">
+    <%= f.label :integer %><br />
+    <%= f.text_field :integer %>
+  </div>
+  <div class="field">
+    <%= f.label :variantinvqty %><br />
+    <%= f.text_field :variantinvqty %>
+  </div>
+  <div class="field">
+    <%= f.label :integer %><br />
+    <%= f.text_field :integer %>
+  </div>
+  <div class="field">
+    <%= f.label :variantprice %><br />
+    <%= f.text_field :variantprice %>
+  </div>
+  <div class="field">
+    <%= f.label :integer %><br />
+    <%= f.text_field :integer %>
+  </div>
+  <div class="field">
+    <%= f.label :variantop1 %><br />
+    <%= f.text_field :variantop1 %>
+  </div>
+  <div class="field">
+    <%= f.label :string %><br />
+    <%= f.text_field :string %>
+  </div>
+  <div class="field">
+    <%= f.label :variantop2 %><br />
+    <%= f.text_field :variantop2 %>
+  </div>
+  <div class="field">
+    <%= f.label :string %><br />
+    <%= f.text_field :string %>
+  </div>
+  <div class="field">
+    <%= f.label :variantgrams %><br />
+    <%= f.text_field :variantgrams %>
+  </div>
+  <div class="field">
+    <%= f.label :string %><br />
+    <%= f.text_field :string %>
+  </div>
+  <div class="field">
+    <%= f.label :variantposition %><br />
+    <%= f.text_field :variantposition %>
+  </div>
+  <div class="field">
+    <%= f.label :string %><br />
+    <%= f.text_field :string %>
+  </div>
+  <div class="field">
+    <%= f.label :variantsku %><br />
+    <%= f.text_field :variantsku %>
+  </div>
+  <div class="field">
+    <%= f.label :string %><br />
+    <%= f.text_field :string %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

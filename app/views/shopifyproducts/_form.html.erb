@@ -1,0 +1,21 @@
+<%= form_for(@shopifyproduct) do |f| %>
+  <% if @shopifyproduct.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@shopifyproduct.errors.count, "error") %> prohibited this shopifyproduct from being saved:</h2>
+
+      <ul>
+      <% @shopifyproduct.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :producttitle %><br />
+    <%= f.text_field :producttitle %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

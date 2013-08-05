@@ -1,0 +1,31 @@
+ => #<File:landingpages.txt> 
+--- 
+- !ruby/object:Shopifylandingpage 
+  attributes: 
+    id: 17
+    producttype: LandingPage
+    producttitle: LandingPage2
+    producthandle: landingpage2
+    productimage1: 
+    productimage2: 
+    productimage3: 
+    created_at: 2013-07-29 23:21:44.764074 Z
+    updated_at: 2013-07-29 23:21:45.454394 Z
+    producthtml: ""
+    productid: 148303525
+    setname: SetTestCollection1
+- !ruby/object:Shopifylandingpage 
+  attributes: 
+    id: 18
+    producttype: LandingPage
+    producttitle: Product2
+    producthandle: product2
+    productimage1: 
+    productimage2: 
+    productimage3: 
+    created_at: 2013-07-29 23:21:45.555791 Z
+    updated_at: 2013-07-29 23:21:46.272401 Z
+    producthtml: ""
+    productid: 148303640
+    setname: SetTestCollection2
+ => nil 

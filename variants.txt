@@ -1,0 +1,109 @@
+ => #<File:variants.txt> 
+--- 
+- !ruby/object:Shopifyvariant 
+  attributes: 
+    id: 1
+    varianttitle: Default
+    variantid: 338850714
+    variantinvqty: 150
+    variantprice: 125
+    variantop1: Default
+    variantop2: 
+    variantgrams: 2268
+    variantposition: "1"
+    variantsku: T00V0025
+    created_at: 2013-07-29 23:21:47.126570 Z
+    updated_at: 2013-07-29 23:21:47.424549 Z
+    shopifyproduct_id: 1
+- !ruby/object:Shopifyvariant 
+  attributes: 
+    id: 2
+    varianttitle: King
+    variantid: 338881755
+    variantinvqty: 300
+    variantprice: 200
+    variantop1: King
+    variantop2: 
+    variantgrams: 2722
+    variantposition: "2"
+    variantsku: T00V0070
+    created_at: 2013-07-29 23:21:47.526271 Z
+    updated_at: 2013-07-29 23:21:47.826311 Z
+    shopifyproduct_id: 1
+- !ruby/object:Shopifyvariant 
+  attributes: 
+    id: 3
+    varianttitle: Default Title
+    variantid: 338885352
+    variantinvqty: 77
+    variantprice: 77
+    variantop1: Default Title
+    variantop2: 
+    variantgrams: 907
+    variantposition: "1"
+    variantsku: T00V0017
+    created_at: 2013-07-29 23:21:48.638222 Z
+    updated_at: 2013-07-29 23:21:48.896913 Z
+    shopifyproduct_id: 2
+- !ruby/object:Shopifyvariant 
+  attributes: 
+    id: 4
+    varianttitle: Queen
+    variantid: 337193821
+    variantinvqty: 10
+    variantprice: 100
+    variantop1: Queen
+    variantop2: 
+    variantgrams: 2268
+    variantposition: "1"
+    variantsku: T00V0001
+    created_at: 2013-07-29 23:21:49.725586 Z
+    updated_at: 2013-07-29 23:21:50.016362 Z
+    shopifyproduct_id: 3
+- !ruby/object:Shopifyvariant 
+  attributes: 
+    id: 5
+    varianttitle: Standard
+    variantid: 338881630
+    variantinvqty: 78
+    variantprice: 150
+    variantop1: Standard
+    variantop2: 
+    variantgrams: 1814
+    variantposition: "2"
+    variantsku: T00V0003
+    created_at: 2013-07-29 23:21:50.109708 Z
+    updated_at: 2013-07-29 23:21:50.409989 Z
+    shopifyproduct_id: 3
+- !ruby/object:Shopifyvariant 
+  attributes: 
+    id: 6
+    varianttitle: Queen
+    variantid: 338781319
+    variantinvqty: 5
+    variantprice: 200
+    variantop1: Queen
+    variantop2: 
+    variantgrams: 1814
+    variantposition: "1"
+    variantsku: T00V0002
+    created_at: 2013-07-29 23:21:51.213340 Z
+    updated_at: 2013-07-29 23:21:51.487473 Z
+    shopifyproduct_id: 4
+- !ruby/object:Shopifyvariant 
+  attributes: 
+    id: 7
+    varianttitle: King
+    variantid: 338885027
+    variantinvqty: 50
+    variantprice: 400
+    variantop1: King
+    variantop2: 
+    variantgrams: 454
+    variantposition: "2"
+    variantsku: T00V0099
+    created_at: 2013-07-29 23:21:51.572450 Z
+    updated_at: 2013-07-29 23:21:51.848871 Z
+    shopifyproduct_id: 4
+ => nil 
+

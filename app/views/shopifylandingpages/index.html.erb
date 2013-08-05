@@ -1,0 +1,49 @@
+<h1>Listing shopifylandingpages</h1>
+
+<table>
+  <tr>
+    <th>Producttype</th>
+    <th>String</th>
+    <th>Producttitle</th>
+    <th>String</th>
+    <th>Producthandle</th>
+    <th>String</th>
+    <th>Productimage1</th>
+    <th>String</th>
+    <th>Productimage2</th>
+    <th>String</th>
+    <th>Productimage3</th>
+    <th>String</th>
+    <th>Productid</th>
+    <th>Integer</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @shopifylandingpages.each do |shopifylandingpage| %>
+  <tr>
+    <td><%= shopifylandingpage.producttype %></td>
+    <td><%= shopifylandingpage.string %></td>
+    <td><%= shopifylandingpage.producttitle %></td>
+    <td><%= shopifylandingpage.string %></td>
+    <td><%= shopifylandingpage.producthandle %></td>
+    <td><%= shopifylandingpage.string %></td>
+    <td><%= shopifylandingpage.productimage1 %></td>
+    <td><%= shopifylandingpage.string %></td>
+    <td><%= shopifylandingpage.productimage2 %></td>
+    <td><%= shopifylandingpage.string %></td>
+    <td><%= shopifylandingpage.productimage3 %></td>
+    <td><%= shopifylandingpage.string %></td>
+    <td><%= shopifylandingpage.productid %></td>
+    <td><%= shopifylandingpage.integer %></td>
+    <td><%= link_to 'Show', shopifylandingpage %></td>
+    <td><%= link_to 'Edit', edit_shopifylandingpage_path(shopifylandingpage) %></td>
+    <td><%= link_to 'Destroy', shopifylandingpage, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Shopifylandingpage', new_shopifylandingpage_path %>

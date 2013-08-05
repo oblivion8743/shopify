@@ -1,0 +1,73 @@
+<%= form_for(@shopifylandingpage) do |f| %>
+  <% if @shopifylandingpage.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@shopifylandingpage.errors.count, "error") %> prohibited this shopifylandingpage from being saved:</h2>
+
+      <ul>
+      <% @shopifylandingpage.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :producttype %><br />
+    <%= f.text_field :producttype %>
+  </div>
+  <div class="field">
+    <%= f.label :string %><br />
+    <%= f.text_field :string %>
+  </div>
+  <div class="field">
+    <%= f.label :producttitle %><br />
+    <%= f.text_field :producttitle %>
+  </div>
+  <div class="field">
+    <%= f.label :string %><br />
+    <%= f.text_field :string %>
+  </div>
+  <div class="field">
+    <%= f.label :producthandle %><br />
+    <%= f.text_field :producthandle %>
+  </div>
+  <div class="field">
+    <%= f.label :string %><br />
+    <%= f.text_field :string %>
+  </div>
+  <div class="field">
+    <%= f.label :productimage1 %><br />
+    <%= f.text_field :productimage1 %>
+  </div>
+  <div class="field">
+    <%= f.label :string %><br />
+    <%= f.text_field :string %>
+  </div>
+  <div class="field">
+    <%= f.label :productimage2 %><br />
+    <%= f.text_field :productimage2 %>
+  </div>
+  <div class="field">
+    <%= f.label :string %><br />
+    <%= f.text_field :string %>
+  </div>
+  <div class="field">
+    <%= f.label :productimage3 %><br />
+    <%= f.text_field :productimage3 %>
+  </div>
+  <div class="field">
+    <%= f.label :string %><br />
+    <%= f.text_field :string %>
+  </div>
+  <div class="field">
+    <%= f.label :productid %><br />
+    <%= f.text_field :productid %>
+  </div>
+  <div class="field">
+    <%= f.label :integer %><br />
+    <%= f.text_field :integer %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

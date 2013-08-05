@@ -1,0 +1,2 @@
+module ShopifyvariantsHelper
+end

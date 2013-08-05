@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  producttype: MyString
+  string: MyString
+  producttitle: MyString
+  string: MyString
+  producthandle: MyString
+  string: MyString
+  productimage1: MyString
+  string: MyString
+  productimage2: MyString
+  string: MyString
+  productimage3: MyString
+  string: MyString
+  productid: MyString
+  integer: MyString
+
+two:
+  producttype: MyString
+  string: MyString
+  producttitle: MyString
+  string: MyString
+  producthandle: MyString
+  string: MyString
+  productimage1: MyString
+  string: MyString
+  productimage2: MyString
+  string: MyString
+  productimage3: MyString
+  string: MyString
+  productid: MyString
+  integer: MyString

@@ -1,0 +1,41 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  varianttitle: MyString
+  string: MyString
+  variantid: MyString
+  integer: MyString
+  variantinvqty: MyString
+  integer: MyString
+  variantprice: MyString
+  integer: MyString
+  variantop1: MyString
+  string: MyString
+  variantop2: MyString
+  string: MyString
+  variantgrams: MyString
+  string: MyString
+  variantposition: MyString
+  string: MyString
+  variantsku: MyString
+  string: MyString
+
+two:
+  varianttitle: MyString
+  string: MyString
+  variantid: MyString
+  integer: MyString
+  variantinvqty: MyString
+  integer: MyString
+  variantprice: MyString
+  integer: MyString
+  variantop1: MyString
+  string: MyString
+  variantop2: MyString
+  string: MyString
+  variantgrams: MyString
+  string: MyString
+  variantposition: MyString
+  string: MyString
+  variantsku: MyString
+  string: MyString

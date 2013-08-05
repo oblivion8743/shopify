@@ -1,0 +1,57 @@
+<h1>Listing shopifyvariants</h1>
+
+<table>
+  <tr>
+    <th>Varianttitle</th>
+    <th>String</th>
+    <th>Variantid</th>
+    <th>Integer</th>
+    <th>Variantinvqty</th>
+    <th>Integer</th>
+    <th>Variantprice</th>
+    <th>Integer</th>
+    <th>Variantop1</th>
+    <th>String</th>
+    <th>Variantop2</th>
+    <th>String</th>
+    <th>Variantgrams</th>
+    <th>String</th>
+    <th>Variantposition</th>
+    <th>String</th>
+    <th>Variantsku</th>
+    <th>String</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @shopifyvariants.each do |shopifyvariant| %>
+  <tr>
+    <td><%= shopifyvariant.varianttitle %></td>
+    <td><%= shopifyvariant.string %></td>
+    <td><%= shopifyvariant.variantid %></td>
+    <td><%= shopifyvariant.integer %></td>
+    <td><%= shopifyvariant.variantinvqty %></td>
+    <td><%= shopifyvariant.integer %></td>
+    <td><%= shopifyvariant.variantprice %></td>
+    <td><%= shopifyvariant.integer %></td>
+    <td><%= shopifyvariant.variantop1 %></td>
+    <td><%= shopifyvariant.string %></td>
+    <td><%= shopifyvariant.variantop2 %></td>
+    <td><%= shopifyvariant.string %></td>
+    <td><%= shopifyvariant.variantgrams %></td>
+    <td><%= shopifyvariant.string %></td>
+    <td><%= shopifyvariant.variantposition %></td>
+    <td><%= shopifyvariant.string %></td>
+    <td><%= shopifyvariant.variantsku %></td>
+    <td><%= shopifyvariant.string %></td>
+    <td><%= link_to 'Show', shopifyvariant %></td>
+    <td><%= link_to 'Edit', edit_shopifyvariant_path(shopifyvariant) %></td>
+    <td><%= link_to 'Destroy', shopifyvariant, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Shopifyvariant', new_shopifyvariant_path %>

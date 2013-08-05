@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "heroku"]
+	url = git@heroku.com:candcshopify.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
+[remote "origin"]
+	url = https://github.com/oblivion8743/shopify.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
